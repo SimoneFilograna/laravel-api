@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return redirect(env("APP_FRONTEND_URL"));
+    return redirect("http://localhost:5174");
 });
 
 Route::get('/dashboard', function () {
